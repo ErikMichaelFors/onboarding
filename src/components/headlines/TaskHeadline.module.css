@@ -1,0 +1,33 @@
+.task_headline_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headline {
+    padding: 2rem;
+}
+
+.actions {
+    padding: 2.5rem;
+    text-align: center;
+  }
+  
+  .actions button {
+    font: inherit;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    border: 1px solid rgb(1, 218, 142);
+    background-color: rgb(1, 218, 142);
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+  }
+  
+  .actions button:hover,
+  .actions button:active {
+    background-color: rgb(0, 170, 111);
+  }
+
+  .hidden {
+    display: none;
+  }
